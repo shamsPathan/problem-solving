@@ -20,25 +20,21 @@ func birthdayCakeCandles(candles []int32) int32 {
 	// Write your code here
 	count := int32(0)
 
-	max := findMax(candles)
+	max := int32(0)
 
 	for i := len(candles) - 1; i >= 0; i-- {
-		if candles[i] == max {
+
+		if max < candles[i] {
+			max = candles[i]
+			count = 0
+		}
+
+		if max == candles[i] {
 			count++
 		}
 	}
 
 	return count
-}
-
-func findMax(array []int32) int32 {
-	max := int32(0)
-	for i := len(array) - 1; i >= 0; i-- {
-		if array[i] > max {
-			max = array[i]
-		}
-	}
-	return max
 }
 
 func main() {
