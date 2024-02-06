@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/shams/codes/golang/src/github.com/bitkohen/ps/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Constraints	candle/README.md	/^#### Constraints$/;"	t	subsection:Problem Statement
+Explanation	candle/README.md	/^#### Explanation$/;"	t	subsection:Problem Statement
+Function Description	candle/README.md	/^#### Function Description$/;"	t	subsection:Problem Statement
+Input Format	candle/README.md	/^#### Input Format$/;"	t	subsection:Problem Statement
+Problem Statement	candle/README.md	/^### Problem Statement$/;"	S
+Returns	candle/README.md	/^#### Returns$/;"	t	subsection:Problem Statement
+Sample Input	candle/README.md	/^#### Sample Input$/;"	t	subsection:Problem Statement
+Sample Output	candle/README.md	/^#### Sample Output$/;"	t	subsection:Problem Statement
+birthdayCakeCandles	candle/main.go	/^func birthdayCakeCandles(candles []int32) int32 {$/;"	f	package:main	typeref:typename:int32
+checkError	candle/main.go	/^func checkError(err error) {$/;"	f	package:main
+checkError	grading/main.go	/^func checkError(err error) {$/;"	f	package:main
+checkError	time-conversion/main.go	/^func checkError(err error) {$/;"	f	package:main
+gradingStudents	grading/main.go	/^func gradingStudents(grades []int32) []int32 {$/;"	f	package:main	typeref:typename:[]int32
+main	candle/main.go	/^func main() {$/;"	f	package:main
+main	candle/main.go	/^package main$/;"	p
+main	grading/main.go	/^func main() {$/;"	f	package:main
+main	grading/main.go	/^package main$/;"	p
+main	time-conversion/main.go	/^func main() {$/;"	f	package:main
+main	time-conversion/main.go	/^package main$/;"	p
+readLine	candle/main.go	/^func readLine(reader *bufio.Reader) string {$/;"	f	package:main	typeref:typename:string
+readLine	grading/main.go	/^func readLine(reader *bufio.Reader) string {$/;"	f	package:main	typeref:typename:string
+readLine	time-conversion/main.go	/^func readLine(reader *bufio.Reader) string {$/;"	f	package:main	typeref:typename:string
+timeConversion	time-conversion/main.go	/^func timeConversion(s string) string {$/;"	f	package:main	typeref:typename:string
